@@ -1,4 +1,4 @@
-package com.example.podatking.ui.theme.ui
+package com.example.podatking.ui
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column

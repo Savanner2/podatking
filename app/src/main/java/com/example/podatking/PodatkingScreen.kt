@@ -17,7 +17,6 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
-import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import com.example.podatking.ui.theme.ui.PodatkingViewModel
 import androidx.lifecycle.viewmodel.compose.viewModel
@@ -27,7 +26,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import com.example.podatking.ui.theme.ui.MainScreen
-import com.example.podatking.ui.theme.ui.ResultScreen
+import com.example.podatking.ui.ResultScreen
 
 enum class PodatkingScreen(val title: String) {
     Start("Kalkulator podatku"),
